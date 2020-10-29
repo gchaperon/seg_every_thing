@@ -55,5 +55,5 @@ TRAIN:
     59, 61, 63)
   RPN_PRE_NMS_TOP_N: 2000
   SCALES: (800,)
-  WEIGHTS: https://s3-us-west-2.amazonaws.com/detectron/ImageNetPretrained/MSRA/R-50.pkl
+  WEIGHTS: https://dl.fbaipublicfiles.com/detectron/ImageNetPretrained/MSRA/R-50.pkl
 USE_NCCL: false

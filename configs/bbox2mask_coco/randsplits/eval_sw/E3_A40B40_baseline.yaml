@@ -37,16 +37,16 @@ TEST:
   DATASETS: ('coco_split_E3_A40B40_B_2014_minival', 'coco_split_E3_A40B40_A_2014_minival')
   MAX_SIZE: 1333
   NMS: 0.5
-  PROPOSAL_FILES: ('https://s3-us-west-2.amazonaws.com/detectron/35998814/12_2017_baselines/rpn_R-50-FPN_1x.yaml.08_06_03.Axg0r179/output/test/coco_2014_minival/generalized_rcnn/rpn_proposals.pkl',
-    'https://s3-us-west-2.amazonaws.com/detectron/35998814/12_2017_baselines/rpn_R-50-FPN_1x.yaml.08_06_03.Axg0r179/output/test/coco_2014_minival/generalized_rcnn/rpn_proposals.pkl')
+  PROPOSAL_FILES: ('https://dl.fbaipublicfiles.com/detectron/35998814/12_2017_baselines/rpn_R-50-FPN_1x.yaml.08_06_03.Axg0r179/output/test/coco_2014_minival/generalized_rcnn/rpn_proposals.pkl',
+    'https://dl.fbaipublicfiles.com/detectron/35998814/12_2017_baselines/rpn_R-50-FPN_1x.yaml.08_06_03.Axg0r179/output/test/coco_2014_minival/generalized_rcnn/rpn_proposals.pkl')
   PROPOSAL_LIMIT: 1000
   SCALE: 800
 TRAIN:
   BATCH_SIZE_PER_IM: 512
   DATASETS: ('coco_split_E3_A40B40_A_2014_train', 'coco_split_E3_A40B40_A_2014_valminusminival')
   MAX_SIZE: 1333
-  PROPOSAL_FILES: ('https://s3-us-west-2.amazonaws.com/detectron/35998814/12_2017_baselines/rpn_R-50-FPN_1x.yaml.08_06_03.Axg0r179/output/test/coco_2014_train/generalized_rcnn/rpn_proposals.pkl',
-    'https://s3-us-west-2.amazonaws.com/detectron/35998814/12_2017_baselines/rpn_R-50-FPN_1x.yaml.08_06_03.Axg0r179/output/test/coco_2014_valminusminival/generalized_rcnn/rpn_proposals.pkl')
+  PROPOSAL_FILES: ('https://dl.fbaipublicfiles.com/detectron/35998814/12_2017_baselines/rpn_R-50-FPN_1x.yaml.08_06_03.Axg0r179/output/test/coco_2014_train/generalized_rcnn/rpn_proposals.pkl',
+    'https://dl.fbaipublicfiles.com/detectron/35998814/12_2017_baselines/rpn_R-50-FPN_1x.yaml.08_06_03.Axg0r179/output/test/coco_2014_valminusminival/generalized_rcnn/rpn_proposals.pkl')
   SCALES: (800,)
   TRAIN_MASK_HEAD_ONLY: true
   WEIGHTS: ./lib/datasets/data/trained_models/28594643_model_final.pkl
